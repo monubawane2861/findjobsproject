@@ -1,0 +1,156 @@
+.my-nav {
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 10px;
+  /* background-color: rgb(243, 222, 209); */
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+
+.lap-view{
+
+  display:none;
+}
+
+.mob-view{
+
+  display: block;
+
+}
+
+.nav-item  a{
+   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-btn-mob button{
+
+ position: relative;
+
+ left: 130px;
+}
+.web-logo {
+
+  width: 120px;
+}
+
+.nav-ul-cont {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.my-nav-items {
+  
+  color: rgb(139, 132, 121);
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.my-nav-items:hover {
+
+  text-decoration: none;
+  color: rgb(238, 159, 107);
+  
+}
+
+.logbtn {
+
+  background-color: #f06f35;
+  padding: 7px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+
+.logo:hover {
+
+  text-decoration: none;
+
+}
+
+
+@media (min-width: 1024px){
+
+
+  .my-nav {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 10px;
+    background-color: rgb(243, 222, 209);
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+  }
+
+  .lap-view{
+
+    display:block;
+  }
+  
+  .mob-view{
+
+    display: none;
+  }
+  .web-logo {
+  
+    width: 120px;
+  }
+  
+  .nav-ul-cont {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .my-nav-items {
+    
+    color: rgb(139, 132, 121);
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .my-nav-items:hover {
+  
+    text-decoration: none;
+    color: rgb(238, 159, 107);
+  }
+  
+  .logbtn {
+  
+    background-color: #f06f35;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+  
+  .logo:hover {
+  
+    text-decoration: none;
+  
+  }
+  
+  
+}

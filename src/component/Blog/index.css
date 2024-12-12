@@ -1,0 +1,174 @@
+
+.blog-main-first{
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.big-img-sec{
+   width: 100%;
+   height: 30vh;
+   /* border: 1px solid black; */
+
+}
+
+.big-img-sec img{
+
+  width: 100%;
+}
+
+.side-sec{
+  width: 100%;
+  height: 70vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.side-sec img{
+
+  width: 80%;
+  padding: 10px;
+}
+
+.pic-one-top{
+
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(175, 170, 170);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.pic-two-botton{
+
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(160, 157, 157);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 60px;
+}
+
+.job-card-cont{
+
+  width: 100%;
+}
+
+.card-cont{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxE{
+
+  width: 290px;
+  height: 360px;
+  border: 1px solid rgb(201, 198, 198);
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+.img-sec{
+
+  width: 100%;
+  height: 50vh;
+
+}
+
+
+@media(min-width: 1024px){
+
+  
+.job-card-cont{
+
+  width: 100%;
+}
+
+.card-cont{
+
+  width: 100%;
+  
+  
+}
+
+.card-cont-cont{
+
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.boxE{
+
+  width: 340px;
+  height: 390px;
+  border: 1px solid rgb(201, 198, 198);
+  margin-left: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+  
+
+}
+
+.img-sec{
+
+  width: 100%;
+  height: 50vh;
+
+}
+
+
+
+
+.blog-main-first{
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.big-img-sec{
+   width: 70%;
+   height: 90vh;
+   /* border: 1px solid black; */
+
+}
+
+.big-img-sec img{
+
+  width: 100%;
+}
+
+.side-sec{
+  width: 30%;
+  height: 90vh;
+  /* border: 1px solid black; */
+
+
+}
+
+}

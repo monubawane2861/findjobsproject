@@ -1,0 +1,343 @@
+.job-details-content-cont{
+
+  width: 100%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.jobs-all-top-cont img{
+
+  width: 70px;
+}
+
+.jobs-all-top-cont h2{
+
+  font-size: 20px;
+}
+
+.logo-title{
+
+
+width: 50px;
+}
+
+.job-details-card{
+
+  list-style: none;
+  width: 90%;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(222, 226, 185);
+
+  
+}
+
+.jobs-all-top-cont{
+
+  display: flex;
+}
+
+.location-brief-salary-cont-cont{
+
+  display: flex;
+}
+
+.location-briaf-salary-cont{
+
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+
+.location-briaf-salary-cont h4{
+
+  font-size: 10px;
+}
+
+.jobs-skills-cont{
+ 
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(29, 28, 28);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+
+}
+
+.icon-name{
+
+  display: flex;
+}
+
+
+.jobs-skills-cont img{
+
+width: 25px;
+height: 25px;
+
+}
+
+.jobs-skills-cont p{
+
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.company-job-cont-cont{
+   
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  background-color: rgb(73, 72, 72);
+  color: white;
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
+
+
+
+.company-job-cont-cont img{
+
+  width: 200px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.common-list-details-cont{
+   width: 100%;
+   /* height: 100%; */
+  /* display: flex; */
+ 
+}
+ 
+
+.common-list-details{
+
+  width: 100%;
+  border: 1px solid white;
+  color: black;
+  background-color: rgb(222, 226, 185);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 15px;
+  
+  list-style: none;
+
+  position: relative;
+  right: 20px;
+}
+
+
+.logo-title h3{
+
+font-size: 20px;
+
+}
+
+.logo-title img{
+
+  width: 70px;
+}
+
+.logo-title{
+
+  display: flex;
+
+}
+
+.logo-title h2{
+
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+
+
+  .job-details-content-cont{
+
+    width: 100%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ 
+  
+  .job-details-card{
+  
+    list-style: none;
+    width: 80%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(222, 226, 185);
+  
+    
+  }
+  
+  .jobs-all-top-cont{
+  
+    display: flex;
+    /* flex-direction: row; */
+  }
+  
+  .location-brief-salary-cont-cont{
+  
+    display: flex;
+
+    
+  }
+  
+  .location-briaf-salary-cont{
+  
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+  }
+  
+  .jobs-skills-cont{
+   
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(29, 28, 28);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  
+  }
+  
+  .icon-name{
+  
+    display: flex;
+
+  }
+  
+  
+  .jobs-skills-cont img{
+  
+  width: 25px;
+  height: 25px;
+  
+  }
+  
+  .jobs-skills-cont p{
+  
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  .company-job-cont-cont{
+     
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    background-color: rgb(73, 72, 72);
+    color: white;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  }
+  
+  
+  /* ------------------------------------------------------------------------------------------ */
+  
+  
+  .similar-details-cont-cont{
+  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  
+  .similar-details{
+  
+    width: 100%;
+   
+    border: 1px solid black;
+  }
+  .common-list-details{
+  
+    border: 1px solid black;
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  
+  .similar-details{
+    /* border: 1px solid black; */
+    width: 40%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+.common-list-details-cont{
+  width: 100%;
+  
+}
+
+
+.common-list-details{
+
+ width: 100%;
+ border: 1px solid white;
+ color: black;
+ background-color: rgb(222, 226, 185);
+ margin-bottom: 20px;
+ border-radius: 20px;
+ padding: 15px;
+}
+
+
+
+  
+  .logo-title{
+  
+    display: flex;
+  
+  }
+  
+
+}

@@ -1,0 +1,66 @@
+.jobs-card {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+
+.logo-title-rating-cont{
+
+  display: flex;
+
+
+}
+
+
+.logo-title-rating-cont img{
+
+  width: 100px;
+}
+
+
+
+
+@media (min-width:1024px){
+
+
+  .job-card-cont-cont{
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .jobs-card {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+
+
+.logo-title-rating-cont{
+
+  display: flex;
+
+
+}
+
+
+.logo-title-rating-cont img{
+
+  width: 100px;
+}
+
+
+ 
+
+
+
+}

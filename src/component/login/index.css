@@ -1,0 +1,80 @@
+.login-cont{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede5d8;
+}
+
+form{
+
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 60%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.75);
+
+  
+}
+
+.submitbtn,.submitbtn:focus{
+outline: none;
+background-color: #f06f35;
+/* color: black; */
+font-weight: 500;
+border: none;
+}
+
+.submitbtn:hover{
+
+  background-color: rgb(235, 170, 116);
+   border: none;
+
+}
+
+@media (min-width: 1024px){
+  .login-cont{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede5d8;
+  }
+  
+  form{
+  
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 60%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.75);
+  
+    
+  }
+  
+  .submitbtn,.submitbtn:focus{
+  outline: none;
+  background-color: #f06f35;
+  /* color: black; */
+  font-weight: 500;
+  border: none;
+  }
+  
+  .submitbtn:hover{
+  
+    background-color: rgb(235, 170, 116);
+     border: none;
+  
+  }
+
+}

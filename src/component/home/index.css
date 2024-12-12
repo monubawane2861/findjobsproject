@@ -1,0 +1,158 @@
+
+
+.home-cont{
+
+  width: 110%;
+  height: 100vh;
+}
+.home-bg-box-cont{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-para{
+
+  width: 100%;
+  height: 60vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-para h1,p{
+
+  padding: 10px;
+}
+
+.head-para h1{
+
+  font-size: 25px;
+}
+
+.home-img-girl{
+
+  width: 90%;
+  height: 50vh;
+  /* border: 1px solid black; */
+
+}
+
+.home-img-girl img{
+
+  position: relative;
+  bottom: 70px;
+}
+
+.head-para button{
+
+  background-color: #f06f35;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  display: none;
+}
+
+.head-para button:focus{
+
+  outline: none;
+}
+
+
+
+
+
+
+@media (min-width: 1024px){
+
+
+
+  .home-cont{
+
+    width: 100vw;
+    height: 100vh;
+  }
+
+  
+.home-bg-box-cont{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-para{
+
+  width: 50%;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+
+.head-para h1{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 52px;
+}
+
+.head-para p{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+.home-img-girl{
+
+  width: 50%;
+  height: 100vh;
+  /* border: 1px solid black; */
+
+}
+
+
+.home-img-girl{
+
+
+  position: relative;
+  top: 120px;
+}
+
+
+
+.head-para button{
+
+  background-color: #f06f35;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px;
+  display: block;
+}
+
+.head-para button:focus{
+
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+}
