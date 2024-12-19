@@ -143,11 +143,13 @@ const JobitemsDetails =()=>{
 
 <div className="jobs-skills-cont">
 <br />
+<br />
 
+<ul>
 
 {
     allSkills.Skills.map(each=>(
-
+    <div>
 
           <li key={each.id} className="skill-each-cont mr-5">
 
@@ -158,11 +160,19 @@ const JobitemsDetails =()=>{
         <p className='skill-name'>{each.name}</p>
         
         </span>
-        </li>
+    </li>
+
+    </div>
     ))
-}    
+}  
+
+</ul>
 
 </div> 
+
+
+
+
 
 <br /><br />
 
@@ -243,11 +253,6 @@ const JobitemsDetails =()=>{
 
 
    </ul>
-
-   
-
-
-
 
 </div>
   

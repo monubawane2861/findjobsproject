@@ -33,7 +33,7 @@ width: 50px;
   /* border: 1px solid black; */
   border-radius: 20px;
   padding: 10px;
-  background-color: rgb(222, 226, 185);
+  background-color: rgb(247, 231, 201);
 
   
 }
@@ -129,7 +129,7 @@ height: 25px;
   width: 100%;
   border: 1px solid white;
   color: black;
-  background-color: rgb(222, 226, 185);
+  background-color: rgb(247, 231, 201);
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 15px;
@@ -138,6 +138,11 @@ height: 25px;
 
   position: relative;
   right: 20px;
+}
+
+li{
+
+  list-style: none;
 }
 
 
@@ -201,7 +206,7 @@ font-size: 20px;
     /* border: 1px solid black; */
     border-radius: 20px;
     padding: 10px;
-    background-color: rgb(222, 226, 185);
+    background-color: rgb(247, 231, 201);
   
     
   }
@@ -324,7 +329,7 @@ font-size: 20px;
  width: 100%;
  border: 1px solid white;
  color: black;
- background-color: rgb(222, 226, 185);
+ background-color: rgb(247, 231, 201);
  margin-bottom: 20px;
  border-radius: 20px;
  padding: 15px;

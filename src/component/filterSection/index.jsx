@@ -81,8 +81,8 @@ const{radioCheckdata}=props;
                 
             {
 
-EmployeType.map((each)=>(
-              <li>
+            EmployeType.map((each)=>(
+              <li key={each.label}>
 
               <input type="checkbox" className='m-2' value={each.jobtype} id={each.jobtype} onChange={CheckboxEl}/>
 
@@ -122,7 +122,7 @@ EmployeType.map((each)=>(
             {
     salaryRange.map((each)=>(
 
-                    <li>
+        <li key={each.label}>
                         <input type="radio" className='m-2' name="salary" id={each.salaryId}  value={each.salaryId} onChange={RadioBoxEl} />
                         <label htmlFor={each.salaryId}>{each.label}</label>
                     </li>

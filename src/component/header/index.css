@@ -7,10 +7,10 @@
   height: 10%;
   padding: 10px;
   /* background-color: rgb(243, 222, 209); */
-  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-family:'Times New Roman', Times, serif;
+  box-shadow: -4px 11px 12px -10px rgba(0,0,0,0.75);
+
 }
-
-
 .lap-view{
 
   display:none;
@@ -28,13 +28,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+
 }
 
 .log-btn-mob button{
 
  position: relative;
 
- left: 130px;
+ left: 125px;
 }
 .web-logo {
 
@@ -56,7 +59,7 @@
   font-size: 20px;
   font-weight: 700;
   padding: 10px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: 'Times New Roman', Times, serif;
 }
 
 .my-nav-items:hover {
@@ -95,7 +98,8 @@
     height: 10%;
     padding: 10px;
     background-color: rgb(243, 222, 209);
-    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    box-shadow: -4px 11px 12px -10px rgba(0,0,0,0.75);
+            /* font-family: "Edu AU VIC WA NT Hand", cursive; */
   }
 
   .lap-view{

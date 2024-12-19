@@ -3,7 +3,7 @@ import './index.css'
 import Header from '../header';
 import { IoCallOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-
+import Footer from '../footer';
 
 const Jobservice = ()=> {
   return (
@@ -17,20 +17,20 @@ const Jobservice = ()=> {
            <div className='bg-top-backside-color'>
 
                    <div className='box'>
-                      <img src="public/image/resumeboy.png"  />
+                      <img src="image/resumeboy.png"/>
 
                         <h4 style={{textAlign:"center"}}>Highlight your peofile</h4>
                         <p style={{textAlign:"center"}}>Your profile is given a higher rank when recruiters search CVs of active candidates in  database</p>
                    </div>
                    <div className='box'>
 
-                    <img src="public/image/cartoon boy.png"  />
+                    <img src="image/cartoon boy.png"  />
                     <h4 style={{textAlign:"center"}}>Highlight your peofile</h4>
                     <p style={{textAlign:"center"}}>Your profile is given a higher rank when recruiters search CVs of active candidates in  database</p>
                    </div>
                    <div className='box '>
 
-                    <img src="public/image/calgirl.png" width="270px" />
+                    <img src="image/calgirl.png" width="270px" />
                     <h4 style={{textAlign:"center"}}>Highlight your peofile</h4>
                     <p style={{textAlign:"center"}}>Your profile is given a higher rank when recruiters search CVs of active candidates in  database</p>
                    </div>
@@ -44,7 +44,7 @@ const Jobservice = ()=> {
 
                       <div className='img-search'> 
 
-                        <img src="public/image/seachpng.png"  />
+                        <img src="image/seachpng.png"  />
                       </div>
 
                       <div className='heading-parag'>
@@ -62,7 +62,7 @@ const Jobservice = ()=> {
       </div>
 
 
-      <div className='second-service-page container'>
+      <div className='second-service-page container col-5'>
 
 
                <div className='cl-info-cont'>
@@ -85,11 +85,11 @@ const Jobservice = ()=> {
 
                <div className='contact-cont'>
 
-                     <div className='contact-cont-cont'>
+                     <div className='contact-cont-cont col-11'>
 
                              <h3>Contact us</h3>
                           
-                           
+                           <form >
                                 
                                 Name <br />
                                 <input type="text" className='form-control' placeholder='type your name here' />
@@ -106,7 +106,7 @@ const Jobservice = ()=> {
 
                                 <input type="Submit" />
 
-                             
+                                </form> 
                      </div>
 
 
@@ -114,6 +114,10 @@ const Jobservice = ()=> {
 
 
         </div>
+
+        <br /><br /><br /><br /><br /><br />
+
+        <Footer/>
 
 
     </>

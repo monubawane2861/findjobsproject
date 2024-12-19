@@ -33,8 +33,9 @@ const Header =()=>{
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
-            <li className="nav-item active">
-              <Link to="/" className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+
+            <li className="nav-item">
+              <Link to="/"  className="nav-link" href="#">Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/jobs"  className="nav-link" href="#">Find Jobs</Link>
@@ -89,7 +90,7 @@ const Header =()=>{
     <Link to="/jobservice" className="my-nav-items" > Job Service</Link>
     </li>
 
-        </ul>
+   </ul>
 
     <button className="logbtn" onClick={onLogoutButton}>Logout</button>
       
